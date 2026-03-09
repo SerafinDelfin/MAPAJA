@@ -62,12 +62,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\EnemyFly.cs" />
     <Compile Include="Assets\Scripts\EnemySlime.cs" />
+    <Compile Include="Assets\Scripts\ActivatableSpinningTrap.cs" />
+    <Compile Include="Assets\Scripts\EnemyBullet.cs" />
     <Compile Include="Assets\Scripts\PlayerFollow.cs" />
     <Compile Include="Assets\Scripts\AttackHitbox.cs" />
+    <Compile Include="Assets\Scripts\BreakableBox.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerTeleport.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\LootBox.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
